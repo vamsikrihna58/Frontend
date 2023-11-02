@@ -1,0 +1,27 @@
+
+     function map(){
+  let a="this vamsi it";
+    
+    let i=0;
+    let j=0;
+    let re="";
+    while(j<a.length){
+    while(j<a.length && a.charAt(j) !=' '){
+      j++;
+        }
+       console.log(j);
+    let k=j-1;
+    let temp="";
+    while(k>=i){
+      re=re+a.charAt(k);
+      k--;
+    }
+    if(j<a.length){
+   re =re+" "
+    }
+    j++;
+    i=j;
+    }
+    console.log(re);
+    }
+map();
